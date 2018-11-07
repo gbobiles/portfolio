@@ -1,0 +1,48 @@
+body {
+	background-image:url("../images/bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: 'Montserrat', sans-serif;
+}
+h1 {
+	color: black;
+	font-size: 50px;
+	font-weight: normal;
+	margin-bottom: 5; 
+	background-color: beige;
+	opacity: 0.6;
+	box-shadow: 5px 10px;
+
+}
+h2 {
+	color: black;
+	font-size: 25px;
+	margin-top: 0;
+	font-weight: normal;
+	background-color: beige;
+
+}
+.bio{
+	color: black;
+	font-size: 18px;
+	box-shadow: 5px 10px;
+	background-color: beige;
+	opacity: 0.6;
+}
+.me {
+	height: 200px;
+	border-radius: 100%;
+	border-style: solid;
+	border-color: darkgray;
+	margin-top: 40px;
+	object-fit:  contain;
+	width: 160px;
+	height: 226px;
+
+}
+#container {
+	width: 500px;
+	margin: 0 auto; 
+	text-align: center;
+}
