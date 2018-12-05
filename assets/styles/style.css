@@ -1,23 +1,94 @@
+#navbar, #footerbar {
+	background: #813772;
+}
+
+#btn-jumbo, #gun-metal {
+	background: #062f4f;
+}
+
+#avatar {
+	border: 1px solid white;
+	border-radius: 50%;
+}
+
 #hero-banner {
-background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
+	background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../images/bg-hero.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	color: #fff;
+	height: 450px;
 }
 
 #about-me {
-	background-image: linear-gradient(darkslategray, ivory);
-
+	background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../images/bg-aboutme.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	color: #fff;
+	height: 550px;
 }
 
 #projects {
-	background-image: linear-gradient(darkslategray, ivory);
-
+	background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../images/bg-projects.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	color: #fff;
+	height: 500px;
 }
 
 #technical-skills {
-	background-image: linear-gradient(darkslategray, ivory);
-
+	background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../images/bg-tech.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	color: #fff;
+	height: 500px;
 }
 
 #contact {
-	background-image: linear-gradient(darkslategray, ivory);
-
+	background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../images/bg-contact.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	color: #fff;
+	/*height: 300px;*/
 }
+
+.m10 {
+	margin: 10px;
+}
+
+.card-body {
+	background: #813772;
+}
+
+.m20	{
+	margin-top: 20px;
+}
+
+.background {
+	background: white;
+	border-radius: 5px;
+	/*height: 150px;*/
+	width: 250px;
+}
+
+.p10 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.fab {
+	font-size: 30px;
+}
+
+.right {
+	float: right;
+}
+
+small {
+	margin: 0 10px;
+}
+
