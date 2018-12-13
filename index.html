@@ -7,6 +7,7 @@
  	<link rel="stylesheet" type="text/css" href="assets/styles/animate.css">
  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
  	<link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+ 	<link rel="icon" href="assets/images/favicon.ico" type="image/gif" sizes="16x16">
 
  	<title>Developer Portfolio - Gerald B. Bobiles</title>
 
@@ -21,7 +22,7 @@
 
  	<nav class="navbar navbar-light navbar-expand-lg" id="navbar">
  		<a class="navbar-brand" href="#hero-banner">
- 			<i class="fas fa-mask"></i>
+ 			<i class="fab fa-rebel"></i>
  		</a>
  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
  			<span class="navbar-toggler-icon"></span>
@@ -30,16 +31,16 @@
  		<div id="navbar-nav" class="collapse navbar-collapse">
  			<ul class="navbar-nav ml-auto">
  				<li class="nav-item">
- 					<a class="nav-link" href="#">About Me</a>
+ 					<a class="nav-link" href="#about-me">About Me</a>
  				</li>
  				<li class="nav-item">
- 					<a class="nav-link" href="#">My Project</a>
+ 					<a class="nav-link" href="#projects ">My Project</a>
  				</li>
  				<li class="nav-item">
- 					<a class="nav-link" href="#">Technical Skills</a>
+ 					<a class="nav-link" href="#technical-skills">Technical Skills</a>
  				</li>
  				<li class="nav-item">
- 					<a class="nav-link" href="#">Contact Me</a>
+ 					<a class="nav-link" href="#contact">Contact Me</a>
  				</li>
  			</ul>	
  		</nav>   
@@ -50,7 +51,7 @@
  				<h1 class="display-5 text-center">Gerald Bobiles</h1>
  				<p class="lead text-center">Welcome to my humble portfolio</p>
  				<p class="lead text-center">
- 					<a class="btn btn-lg" id="btn-jumbo" href="#projects" role="button">View My Projects</a>
+ 					<a class="btn btn-lg btn-outline-light" id="btn-jumbo" href="#projects" role="button">View My Projects</a>
  				</p>
 
  			</div>
@@ -58,13 +59,13 @@
  		<!-- end of hero-banner -->
  		<div class="container-fluid" id="about-me">
  			<img src="assets/images/avatar.png" class="rounded mx-auto d-block img-fluid" alt="avatar" id="avatar">
- 			<div class="nav nav-tabs" id="nav-tab" role="tablist">
+ 			<div class="nav nav-tabs justify-content-center m20" id="nav-tab" role="tablist">
  				<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">About Me</a>
  				<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">What I love</a>
  				<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">My Experience</a>
  			</div>
  		</nav>
- 		<div class="tab-content" id="nav-tabContent">
+ 		<div class="tab-content text-center" id="nav-tabContent">
  			<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
  				<h2>Hey there!</h2>
  				<p>First of all, thanks for visiting my portfolio! You can call me Gerald, 27 year old and married (hooray!). Creating and designing websites is my passion, I am always fascinated by the facts that everything we use online on our daily lives was build by strings of letters, characters and numbers.</p>
@@ -81,112 +82,122 @@
  	</div>
  	<!--end of about-me -->
  	<div class="container-fluid" id="projects">
- 		<div class="float-right m10">
- 			<div class="card" style="width: 18rem;">
- 				<img class="card-img-top" src="http://placehold.it/500x300" alt="Card image cap">
- 				<div class="card-body">
- 					<h5 class="card-title">Capstone 3</h5>
- 					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
- 					<a href="#" class="btn btn-primary" id="btn-jumbo">Visit</a>
- 				</div>
- 			</div>	
- 		</div>
- 		<div class="float-right m10">
- 			<div class="card" style="width: 18rem;">
- 				<img class="card-img-top" src="http://placehold.it/500x300" alt="Card image cap">
- 				<div class="card-body">
- 					<h5 class="card-title">Capstone 2</h5>
- 					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
- 					<a href="#" class="btn btn-primary" id="btn-jumbo">Visit</a>
- 				</div>
- 			</div>	
- 		</div>
- 		<div class="float-right m10">
- 			<div class="card" style="width: 18rem;">
- 				<img class="card-img-top" src="http://placehold.it/500x300" alt="Card image cap">
- 				<div class="card-body">
- 					<h5 class="card-title">Capstone 1</h5>
- 					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
- 					<a href="#" class="btn btn-primary" id="btn-jumbo">Visit</a>
- 				</div>
- 			</div>	
- 		</div>
- 	</div>
- 	<!-- end of my-projects -->
- 	<div class="container-fluid" id="technical-skills">
- 		<div>
- 			<h1>Skills</h1>
+ 		<div class="text-center"><h1>My Projects</h1></div>
+ 		<div class="row justify-content-center">
+        <ul class="thumbnails" id="padding-0">
+            <div class="col-md-4 col-lg-4 col-sm-4 float-left">
+                <div class="thumbnail">
+                    <img src="assets/images/csp1.png" alt="capstone-1" class="img-responsive mx-auto d-block" id="capstone-img" />
+                    <div class="caption text-center">
+                         <h3>Capstone 1</h3>
+                        <p>My first static website. The concept for this website is somewhat simple. You can browse through beautiful photos of nature's art and immerse yourself with relaxation and beautiful sceneries</p>
+                        <p align="center"><a href="https://gbobiles.github.io/cps1-phototravelling/" class="btn btn-outline-light btn-block" target="blank" id="gun-metal">Open</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-4 float-left">
+                <div class="thumbnail">
+                    <img src="http://placehold.it/320x200" alt="ALT NAME" class="img-responsive mx-auto d-block" />
+                    <div class="caption text-center">
+                         <h3>Capstone 2</h3>
+                        <p>Description</p>
+                        <p align="center"><a href="#" class="btn  btn-outline-light btn-block" id="gun-metal">Open</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-4 float-left">
+                <div class="thumbnail">
+                    <img src="http://placehold.it/320x200" alt="ALT NAME" class="img-responsive mx-auto d-block" />
+                    <div class="caption text-center">
+                         <h3>Capstone 3</h3>
+                        <p>Description</p>
+                        <p align="center"><a href="#" class="btn btn-block btn-outline-light" id="gun-metal">Open</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+       </ul>
+       </div> 
+ </div>
+ <!-- end of my-projects -->
+ <div class="container-fluid" id="technical-skills">
+ 	<div>
+ 		<h1>Skills</h1>
  		<div class="progress m10">
- 					<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">HTML</div>
- 				</div>
- 				<div class="progress m10">
- 					<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%">CSS</div>
- 				</div>
- 				<div class="progress m10">
- 					<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 10%">JavaScript</div>
- 				</div>
- 				<div class="progress m10">
- 					<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 5%">PHP</div>
- 				</div>
- 				<div class="progress m10">
- 					<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 5%">Laravel</div>
- 				</div>
- 				<h2 class="text-center">Technologies I've used:</h2>
- 				<div class="background rounded mx-auto d-block">
- 					<img src="assets/images/bigcommerce.webp" class="img-fluid m10" alt="bigcommerce" height="50px" width="50px">
- 					<img src="assets/images/shopify.png" class="img-fluid m10" alt="shopify" height="50px" width="50px">
- 					<img src="assets/images/bootstrap.png" class="img-fluid m10" alt="bootstrap" height="50px" width="50px">
- 				</div>
- 				</div>
- 			</div>
+ 			<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">HTML</div>
+ 		</div>
+ 		<div class="progress m10">
+ 			<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%">CSS</div>
+ 		</div>
+ 		<div class="progress m10">
+ 			<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 10%">JavaScript</div>
+ 		</div>
+ 		<div class="progress m10">
+ 			<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 5%">PHP</div>
+ 		</div>
+ 		<div class="progress m10">
+ 			<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 5%">Laravel</div>
+ 		</div>
+ 		<h2 class="text-center">Technologies I've used:</h2>
+ 		<div class="background rounded mx-auto d-block">
+ 			<img src="assets/images/bigcommerce.webp" class="img-fluid m10" alt="bigcommerce" height="50px" width="50px">
+ 			<img src="assets/images/shopify.png" class="img-fluid m10" alt="shopify" height="50px" width="50px">
+ 			<img src="assets/images/bootstrap.png" class="img-fluid m10" alt="bootstrap" height="50px" width="50px">
  		</div>
  	</div>
- 	<div class="container-fluid" id="contact">
- 		<div>
- 			<div class="alert alert-danger" role="alert">
- 				This page is under constraction, please email me directly at <a href="mailto:geraldbobiles@gmail.com">geraldbobiles@gmail.com</a>
- 			</div>
- 			<form class="p10">
- 				<div class="form-group">
- 					<label for="exampleFormControlInput1">Email address</label>
- 					<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
- 				</div>
- 				<div class="form-group">
- 					<label for="exampleFormControlTextarea1">Your Message here:</label>
- 					<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
- 				</div>
- 				<button type="submit" class="btn btn-primary">Submit</button>
- 			</form>
- 		</div>
- 	</div>
- 	<footer id="footerbar">
- 			<nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-dark" id="footerbar">
- 				<a class="navbar-brand" href="#navbar">Back to top <i class="fas fa-angle-up"></i></a>
- 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
- 					<span class="navbar-toggler-icon"></span>
- 				</button>
+ </div>
+</div>
+</div>
+<div class="container-fluid" id="contact">
+	<div>
+		<div class="alert alert-danger" role="alert">
+			This page is under constraction, please email me directly at <a href="mailto:geraldbobiles@gmail.com">geraldbobiles@gmail.com</a>
+		</div>
+		<form class="p10">
+			<div class="form-group">
+				<label for="exampleFormControlInput1">Email address</label>
+				<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlTextarea1">Your Message here:</label>
+				<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+			</div>
+			<button type="submit" class="btn btn-outline-light" id="gun-metal">Submit</button>
+		</form>
+	</div>
+</div>
+<!-- end of contacts -->
+<footer class="container-fluid" id="footerbar">
+	<nav class="navbar navbar-expand navbar-dark" id="footerbar">
+		<a class="navbar-brand" href="#navbar">Back to top <i class="fas fa-angle-up"></i></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
 
- 				<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
- 					<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
- 						<li class="nav-item">
- 							<a class="nav-link" href="https://www.facebook.com/g3raldbobiles" target="blank"><i class="fab fa-facebook"></i></a>
- 						</li>
- 						<li class="nav-item">
- 							<a class="nav-link" href="https://twitter.com/tunay_na_gerald"><i class="fab fa-twitter-square"></i></a>
- 						</li>
- 						<li class="nav-item">
- 							<a class="nav-link" href="https://github.com/gbobiles"><i class="fab fa-github"></i></a>
- 						</li>
- 					</ul>
- 					<form class="form-inline my-2 my-lg-0">
- 						<input class="form-control mr-sm-2" type="search" placeholder="Search">
- 						<button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
- 					</form>
- 				</div>
- 			</nav>
- 			<small>Gerald Bobiles | 2018 &copy
- 			</small>
- 			<small class="right">Images by <a href="https://www.pexels.com/@padrinan">Miguel Á. Padriñán</a></small>
- 		</div>
- </body>
- </html>
+		<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+			<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+				<li class="nav-item">
+					<a class="nav-link" href="https://www.facebook.com/g3raldbobiles" target="blank"><i class="fab fa-facebook"></i></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://twitter.com/tunay_na_gerald"><i class="fab fa-twitter-square"></i></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://github.com/gbobiles"><i class="fab fa-github"></i></a>
+				</li>
+			</ul>
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search" placeholder="Search">
+				<button class="btn btn-outline-light my-2 my-sm-0" type="submit" id="gun-metal">Search</button>
+			</form>
+		</div>
+	</nav>
+	<small>Gerald Bobiles | 2018 &copy
+	</small>
+	<small class="right">Background images by <a href="https://www.pexels.com/@padrinan">Miguel Á. Padriñán</a></small>
+</footer>
+<!-- end of footer -->
+</body>
+</html>

@@ -12,7 +12,7 @@
 }
 
 #hero-banner {
-	background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../images/bg-hero.jpg");
+	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("../images/bg-hero.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -21,7 +21,7 @@
 }
 
 #about-me {
-	background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../images/bg-aboutme.jpg");
+	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("../images/bg-aboutme.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -30,16 +30,16 @@
 }
 
 #projects {
-	background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../images/bg-projects.jpg");
+	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("../images/bg-projects.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
 	color: #fff;
-	height: 500px;
+	height: auto;
 }
 
 #technical-skills {
-	background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../images/bg-tech.jpg");
+	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("../images/bg-tech.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -48,7 +48,7 @@
 }
 
 #contact {
-	background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../images/bg-contact.jpg");
+	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("../images/bg-contact.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -88,7 +88,20 @@
 	float: right;
 }
 
-small {
-	margin: 0 10px;
+.left {
+	float: left;
 }
 
+small {
+	margin: 0 3px;
+}
+
+#padding-0 {
+	padding-inline-start: 0px;
+}
+
+#capstone-img {
+	height: 200px;
+	width: 100%;
+	border: 1px solid white;
+}
